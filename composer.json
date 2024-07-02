@@ -1,0 +1,27 @@
+{
+    "name": "sitepuls/blocks",
+    "type": "sitepuls-blocks",
+    "version": "0.0.1",
+    "description": "Base Installation of Blocks",
+    "keywords": [
+        "composer-installer",
+        "magento"
+    ],
+    "authors": [
+        {
+            "name": "Raphael Flattinger",
+            "email": "raphael.flattinger@sitepuls.com"
+        }
+    ],
+    "require-dev": {
+        "composer/composer": "*@dev"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sitepuls\\Blocks\\": ""
+        }
+    }
+}
