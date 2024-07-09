@@ -5,7 +5,8 @@
     "description": "Base Installation of Blocks",
     "keywords": [
         "composer-installer",
-        "magento"
+        "filament",
+        "laravel"
     ],
     "authors": [
         {
@@ -16,10 +17,8 @@
     "require-dev": {
         "composer/composer": "*@dev"
     },
+    "license": "MIT",
     "autoload": {
-        "files": [
-            "registration.php"
-        ],
         "psr-4": {
             "Sitepuls\\Blocks\\": ""
         }
